@@ -4,6 +4,7 @@ import time
 import re
 import os
 
+load_env()
 # ================= CONFIG =================
 EMAIL = "circuitsaga@gmail.com"
 APP_PASSWORD = os.getenv("PASS")
